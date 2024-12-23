@@ -9,3 +9,12 @@
         - Membuat lingkungan virtual
         - Mengaktifkan lingkungan virtual
         - Menginstal Django
+
+#### 2. Membuat remote repositori dan mengupload file proyek ke remote repositori
+
+        - Membuat akun di Github
+        - Membuat repositori baru
+        - Upload file proyek ke remote repositori
+
+
+
