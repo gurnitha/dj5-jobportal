@@ -25,3 +25,13 @@
         new file:   config/urls.py
         new file:   config/wsgi.py
         new file:   manage.py
+
+#### 4. Membuat aplikasi jobs
+
+        new file:   apps/jobs/__init__.py
+        new file:   apps/jobs/admin.py
+        new file:   apps/jobs/apps.py
+        new file:   apps/jobs/migrations/__init__.py
+        new file:   apps/jobs/models.py
+        new file:   apps/jobs/tests.py
+        new file:   apps/jobs/views.py
