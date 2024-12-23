@@ -35,3 +35,16 @@
         new file:   apps/jobs/models.py
         new file:   apps/jobs/tests.py
         new file:   apps/jobs/views.py
+
+#### 5. Register aplikasi jobs pada proyek
+
+        modified:   README.md
+        modified:   config/settings.py
+
+        Note:
+
+        1. Aplikasi jobs tidak diketahui. 
+        Hal itu disebabkan karena kita membuat struktur
+        proyek sesuai kebutuhan kita.
+
+        >> ModuleNotFoundError: No module named 'jobs'
