@@ -48,3 +48,8 @@
         proyek sesuai kebutuhan kita.
 
         >> ModuleNotFoundError: No module named 'jobs'
+
+#### 6. Membuat path untuk apps
+
+        (venv312513) λ python manage.py check
+        System check identified no issues (0 silenced).
