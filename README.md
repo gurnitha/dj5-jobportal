@@ -53,3 +53,12 @@
 
         (venv312513) λ python manage.py check
         System check identified no issues (0 silenced).
+
+#### 7. Halo Dunia!
+
+        modified:   README.md
+        new file:   apps/jobs/urls.py
+        modified:   apps/jobs/views.py
+        modified:   config/settings.py
+        modified:   config/urls.py
+        new file:   templates/jobs/index.html
