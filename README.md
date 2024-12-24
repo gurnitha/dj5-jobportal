@@ -208,3 +208,8 @@
 
         modified:   README.md
         modified:   templates/jobs/index.html
+
+#### 3. Load file statis pada template
+
+        modified:   README.md
+        modified:   templates/jobs/index.html
