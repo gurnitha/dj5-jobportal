@@ -191,3 +191,6 @@
 
         modified:   README.md
         modified:   apps/users/admin.py
+
+
+## 4. TEMPLATES
