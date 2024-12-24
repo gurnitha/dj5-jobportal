@@ -230,3 +230,9 @@
         new file:   templates/components/10_footer.html
         new file:   templates/components/11_loader.html
         modified:   templates/jobs/index.html
+
+#### 5. Membuat page title menggunakan block.super
+
+        modified:   README.md
+        modified:   templates/base.html
+        modified:   templates/jobs/index.html
