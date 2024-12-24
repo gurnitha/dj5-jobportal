@@ -118,3 +118,8 @@
         new file:   apps/users/models.py
         new file:   apps/users/tests.py
         new file:   apps/users/views.py
+
+#### 2. Register users app pada proyek
+
+        modified:   README.md
+        modified:   config/settings.py
