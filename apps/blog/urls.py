@@ -11,4 +11,5 @@ app_name = 'blog'
 
 urlpatterns = [
     path('blog/', views.posts_list_view, name='posts_list'),
+    path('blog/post-single/<int:pk>/', views.post_single_view, name='post_single'),
 ]

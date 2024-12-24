@@ -257,3 +257,11 @@
         modified:   config/urls.py
         new file:   templates/blog/posts_list.html
         modified:   templates/components/01_navbar.html
+
+#### 8. Membuat laman blog post_single
+
+        modified:   apps/blog/urls.py
+        modified:   apps/blog/views.py
+        new file:   templates/blog/post_single.html
+        modified:   templates/blog/posts_list.html
+        modified:   templates/components/01_navbar.html
