@@ -73,3 +73,22 @@
         mysql>
         mysql> CREATE DATABASE dj5_jobportal;
         Query OK, 1 row affected (0.51 sec)
+
+#### 2. Menghubungkan proyek dengan database
+
+        DATABASES = {
+            'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'dj5_jobportal',
+            'USER': 'root',
+            'PASSWORD': '',
+            'HOST':'localhost',
+            'PORT':'3306',
+            }
+        }
+
+        django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module.
+        Did you install mysqlclient?
+
+        modified:   README.md
+        modified:   config/settings.py
