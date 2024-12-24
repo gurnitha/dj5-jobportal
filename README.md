@@ -92,3 +92,15 @@
 
         modified:   README.md
         modified:   config/settings.py
+
+#### 3. Menginstal mysqlclient
+
+        (venv312513) λ pip install mysqlclient
+        ...
+        Successfully installed mysqlclient-2.2.6
+
+        # Testing
+        (venv312513) λ python manage.py runserver
+        ...
+        Starting development server at http://127.0.0.1:8000/
+        Quit the server with CTRL-BREAK.
