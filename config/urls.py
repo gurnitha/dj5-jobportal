@@ -5,6 +5,8 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
+    # users
+    path('', include('users.urls', namespace='users')),
     # jobs
     path('', include('jobs.urls', namespace='jobs')),
     # main

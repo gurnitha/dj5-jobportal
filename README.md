@@ -311,3 +311,19 @@
         modified:   apps/main/views.py
         modified:   templates/components/01_navbar.html
         new file:   templates/main/about.html
+
+#### 14. Membuat laman contact dan register
+
+        # Laman contact
+        modified:   README.md
+        modified:   apps/main/urls.py
+        modified:   apps/main/views.py
+        new file:   templates/main/contact.html
+        modified:   templates/components/01_navbar.html
+
+        # Laman register
+        new file:   apps/users/urls.py
+        modified:   apps/users/views.py
+        modified:   config/urls.py
+        new file:   templates/users/register.html
+        modified:   templates/components/01_navbar.html
