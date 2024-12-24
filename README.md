@@ -62,3 +62,6 @@
         modified:   config/settings.py
         modified:   config/urls.py
         new file:   templates/jobs/index.html
+
+
+## 2. DATABASE
