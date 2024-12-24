@@ -213,3 +213,20 @@
 
         modified:   README.md
         modified:   templates/jobs/index.html
+
+#### 4. Membuat base template dan menerapkan template inheritance
+
+        modified:   README.md
+        new file:   templates/base.html
+        new file:   templates/components/01_navbar.html
+        new file:   templates/components/02_hero.html
+        new file:   templates/components/03_company_ads_1.html
+        new file:   templates/components/04_job_category.html
+        new file:   templates/components/05_job_recent.html
+        new file:   templates/components/06_company_ads_2.html
+        new file:   templates/components/07_happy_client.html
+        new file:   templates/components/08_blog_recent.html
+        new file:   templates/components/09_news_letter.html
+        new file:   templates/components/10_footer.html
+        new file:   templates/components/11_loader.html
+        modified:   templates/jobs/index.html
