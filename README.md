@@ -107,3 +107,14 @@
 
 
 ## 3. MODELS
+
+#### 1. Membuat users app
+
+        modified:   README.md
+        new file:   apps/users/__init__.py
+        new file:   apps/users/admin.py
+        new file:   apps/users/apps.py
+        new file:   apps/users/migrations/__init__.py
+        new file:   apps/users/models.py
+        new file:   apps/users/tests.py
+        new file:   apps/users/views.py
