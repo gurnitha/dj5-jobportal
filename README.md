@@ -265,3 +265,11 @@
         new file:   templates/blog/post_single.html
         modified:   templates/blog/posts_list.html
         modified:   templates/components/01_navbar.html
+
+#### 9. Membuat laman jobs_list
+
+        modified:   README.md
+        modified:   apps/jobs/urls.py
+        modified:   apps/jobs/views.py
+        modified:   templates/components/01_navbar.html
+        new file:   templates/jobs/jobs_list.html
