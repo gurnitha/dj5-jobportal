@@ -203,3 +203,8 @@
         ...
         new file:   static/scss/style.scss
         new file:   static/starter.css
+
+#### 2. Mengisi html template untuk laman home
+
+        modified:   README.md
+        modified:   templates/jobs/index.html
