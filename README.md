@@ -335,3 +335,15 @@
         modified:   apps/users/views.py
         modified:   templates/components/01_navbar.html
         new file:   templates/users/login.html
+
+#### 16. Membuat aplikasi contacts dan mendaftarkannya pada proyek
+
+        modified:   README.md
+        new file:   apps/contacts/__init__.py
+        new file:   apps/contacts/admin.py
+        new file:   apps/contacts/apps.py
+        new file:   apps/contacts/migrations/__init__.py
+        new file:   apps/contacts/models.py
+        new file:   apps/contacts/tests.py
+        new file:   apps/contacts/views.py
+        modified:   config/settings.py
