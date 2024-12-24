@@ -282,3 +282,15 @@
         modified:   templates/components/01_navbar.html
         new file:   templates/jobs/job_create.html
         modified:   templates/jobs/jobs_list.html
+
+#### 11. Membuat main app dan mendaftarkannya pada proyek
+
+        modified:   README.md
+        new file:   apps/main/__init__.py
+        new file:   apps/main/admin.py
+        new file:   apps/main/apps.py
+        new file:   apps/main/migrations/__init__.py
+        new file:   apps/main/models.py
+        new file:   apps/main/tests.py
+        new file:   apps/main/views.py
+        modified:   config/settings.py
