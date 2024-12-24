@@ -2,10 +2,13 @@
 
 # Django modules
 from django.db import models
-from django.contrib.auth.models import BaseUserManager
+from django.contrib.auth.models import (
+    AbstractBaseUser, 
+    BaseUserManager, 
+    PermissionsMixin
+)
 from django.utils.translation import gettext_lazy as _
-
-# Locals
+from django.utils import timezone
 
 # Create your models here
 
@@ -37,3 +40,37 @@ class CustomUserManager(BaseUserManager):
             raise ValueError(_('Superuser must have is_superuser = True'))
 
         return self.create_user(email, password, **extra_fields)
+
+
+class CustomUser(AbstractBaseUser, PermissionsMixin):
+
+    username = None  
+
+    email = models.EmailField(max_length=255, unique=True, db_index=True, verbose_name=_('email address'))
+    first_name = models.CharField(max_length=50,blank=False)
+    last_name = models.CharField(max_length=50,blank=False)
+    is_active = models.BooleanField(default=True)
+    is_staff = models.BooleanField(default=False)
+    is_employee = models.BooleanField(default=False, verbose_name='Are you an employee?')
+    is_employer = models.BooleanField(default=False, verbose_name='Are you an employer?')    
+    date_joined = models.DateTimeField(default=timezone.now)
+
+    USERNAME_FIELD = 'email'
+    REQUIRED_FIELDS = []
+
+    objects = CustomUserManager()
+
+    class Meta:
+        verbose_name = _('user')
+        verbose_name_plural = _('users')
+
+    def get_full_name(self):
+        """Return the email."""
+        return self.email
+
+    def get_short_name(self):
+        """Return the email."""
+        return self.email
+
+    def __str__(self):
+        return self.email

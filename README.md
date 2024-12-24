@@ -128,3 +128,8 @@
 
         modified:   README.md
         modified:   apps/users/models.py
+
+#### 4. Membuat CustomUser
+
+        modified:   README.md
+        modified:   apps/users/models.py
