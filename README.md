@@ -133,3 +133,8 @@
 
         modified:   README.md
         modified:   apps/users/models.py
+
+#### 5. Mendaftarkan CustomUser pada settings.py sebagai default model
+
+        modified:   README.md
+        modified:   config/settings.py
