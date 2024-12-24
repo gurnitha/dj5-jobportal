@@ -1,0 +1,82 @@
+<!-- templates/users/register.html -->
+{% extends 'base.html' %}
+
+{% block title %} {{ block.super }} Login {% endblock title %}
+
+{% load static %}
+
+{% block content %}
+
+    <div class="hero-wrap js-fullheight" style="background-image: url({% static 'images/bg_2.jpg' %});" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start" data-scrollax-parent="true">
+                <div class="col-md-8 ftco-animate text-center text-md-left mb-5" data-scrollax=" properties: { translateY: '70%' }">
+                    <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-3"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Post a Job</span></p>
+                    <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Post a Job</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ftco-section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-md-12 col-lg-8 mb-5">
+                    <form 
+                        action="#" 
+                        method="post" 
+                        class="p-5 bg-white">
+                        <input type="hidden" name="csrfmiddlewaretoken" value="IKNnOQPt2J7D15lNJlrcEb8W34lQRmtLIlJObB8ok6Zpubrj5BuhwdnhxZVZnxv7">
+                        <!-- Input fields -->
+                        <div class="row form-group">
+                            <div class="col-md-12 mb-3 mb-md-0">
+                                <label 
+                                    class="font-weight-bold" 
+                                    for="fullname">Email address</label>
+                                <input
+                                    name="email" 
+                                    type="email" 
+                                    id="fullname" 
+                                    class="form-control" 
+                                    placeholder="Email address">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-12 mb-3 mb-md-0">
+                                <label 
+                                    class="font-weight-bold" 
+                                    for="fullname">Password</label>
+                                <input
+                                    name="password1" 
+                                    type="password" 
+                                    id="fullname" 
+                                    class="form-control" 
+                                    placeholder="Password">
+                            </div>
+                        </div>
+                        <!-- Input fields -->
+                        <!-- Form button -->
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <input 
+                                    type="submit" 
+                                    value="Register" 
+                                    class="btn btn-primary  py-2 px-5">
+                            </div>
+                        </div>
+                        <!-- Form button -->
+                    </form>
+                </div>
+                <div class="col-lg-2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+   	<!--============================= News letter =============================-->
+    {% include 'components/09_news_letter.html' %}
+	<!--============================= News letter end =============================-->
+
+{% endblock content %}

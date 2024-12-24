@@ -327,3 +327,11 @@
         modified:   config/urls.py
         new file:   templates/users/register.html
         modified:   templates/components/01_navbar.html
+
+#### 15. Membuat laman login
+
+        modified:   README.md
+        modified:   apps/users/urls.py
+        modified:   apps/users/views.py
+        modified:   templates/components/01_navbar.html
+        new file:   templates/users/login.html
