@@ -347,3 +347,13 @@
         new file:   apps/contacts/tests.py
         new file:   apps/contacts/views.py
         modified:   config/settings.py
+
+#### 17. Memindahkan laman contact 
+
+        new file:   apps/contacts/urls.py
+        modified:   apps/contacts/views.py
+        modified:   apps/main/urls.py
+        modified:   apps/main/views.py
+        modified:   config/urls.py
+        modified:   templates/components/01_navbar.html
+        renamed:    templates/main/contact.html -> templates/contacts/contact.html

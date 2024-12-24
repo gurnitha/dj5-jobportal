@@ -11,6 +11,8 @@ urlpatterns = [
     path('', include('jobs.urls', namespace='jobs')),
     # main
     path('', include('main.urls', namespace='main')), 
+    # contacts
+    path('', include('contacts.urls', namespace='contacts')), 
     # blog
     path('', include('blog.urls', namespace='blog')), 
     path('admin/', admin.site.urls),
