@@ -186,3 +186,8 @@
         modified:   apps/users/models.py
 
         :)
+
+#### 7. Memodifikasi tampilan CustomUser pada admin panel
+
+        modified:   README.md
+        modified:   apps/users/admin.py
