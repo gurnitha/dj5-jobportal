@@ -65,3 +65,11 @@
 
 
 ## 2. DATABASE
+
+#### 1. Membuat MySQL database
+
+        λ mysql -u root
+        ...
+        mysql>
+        mysql> CREATE DATABASE dj5_jobportal;
+        Query OK, 1 row affected (0.51 sec)
