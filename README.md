@@ -248,3 +248,12 @@
         new file:   apps/blog/tests.py
         new file:   apps/blog/views.py
         modified:   config/settings.py
+
+#### 7. Membuat laman blog posts_list
+
+        modified:   README.md
+        new file:   apps/blog/urls.py
+        modified:   apps/blog/views.py
+        modified:   config/urls.py
+        new file:   templates/blog/posts_list.html
+        modified:   templates/components/01_navbar.html
