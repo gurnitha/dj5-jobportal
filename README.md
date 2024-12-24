@@ -294,3 +294,12 @@
         new file:   apps/main/tests.py
         new file:   apps/main/views.py
         modified:   config/settings.py
+
+#### 12. Memindahkan laman home dari jobs app ke main app
+
+        modified:   apps/jobs/urls.py
+        modified:   apps/jobs/views.py
+        new file:   apps/main/urls.py
+        modified:   apps/main/views.py
+        modified:   config/urls.py
+        renamed:    templates/jobs/index.html -> templates/main/index.html

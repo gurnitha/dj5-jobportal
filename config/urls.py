@@ -6,7 +6,9 @@ from django.urls import path, include
 
 urlpatterns = [
     # jobs
-    path('', include('jobs.urls', namespace='jobs')), 
+    path('', include('jobs.urls', namespace='jobs')),
+    # main
+    path('', include('main.urls', namespace='main')), 
     # blog
     path('', include('blog.urls', namespace='blog')), 
     path('admin/', admin.site.urls),
