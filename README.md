@@ -123,3 +123,8 @@
 
         modified:   README.md
         modified:   config/settings.py
+
+#### 3. Membuat CustomUserManager
+
+        modified:   README.md
+        modified:   apps/users/models.py
