@@ -51,6 +51,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     last_name = models.CharField(max_length=50,blank=False)
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
+    is_superuser = models.BooleanField(default=False)
     is_employee = models.BooleanField(default=False, verbose_name='Are you an employee?')
     is_employer = models.BooleanField(default=False, verbose_name='Are you an employer?')    
     date_joined = models.DateTimeField(default=timezone.now)
