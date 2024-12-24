@@ -11,5 +11,6 @@ app_name = 'jobs'
 
 urlpatterns = [
     path('', views.home_view, name='home'),
-    path('job/job-post/', views.jobs_list_view, name='jobs_list'),
+    path('job/lists/', views.jobs_list_view, name='jobs_list'),
+    path('job/create/', views.job_create_view, name='job_create'),
 ]

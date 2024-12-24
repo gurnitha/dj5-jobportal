@@ -273,3 +273,12 @@
         modified:   apps/jobs/views.py
         modified:   templates/components/01_navbar.html
         new file:   templates/jobs/jobs_list.html
+
+#### 10. Membuat laman job_create
+
+        modified:   README.md
+        modified:   apps/jobs/urls.py
+        modified:   apps/jobs/views.py
+        modified:   templates/components/01_navbar.html
+        new file:   templates/jobs/job_create.html
+        modified:   templates/jobs/jobs_list.html

@@ -11,3 +11,7 @@ def home_view(request):
 
 def jobs_list_view(request):
 	return render(request, 'jobs/jobs_list.html')
+
+
+def job_create_view(request):
+	return render(request, 'jobs/job_create.html')
