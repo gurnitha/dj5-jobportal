@@ -194,3 +194,12 @@
 
 
 ## 4. TEMPLATES
+
+#### 1. Membuat path untuk file statis
+
+        modified:   README.md
+        modified:   config/settings.py
+        new file:   static/css/.DS_Store
+        ...
+        new file:   static/scss/style.scss
+        new file:   static/starter.css
