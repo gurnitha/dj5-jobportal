@@ -303,3 +303,11 @@
         modified:   apps/main/views.py
         modified:   config/urls.py
         renamed:    templates/jobs/index.html -> templates/main/index.html
+
+#### 13. Membuat laman about
+
+        modified:   README.md
+        modified:   apps/main/urls.py
+        modified:   apps/main/views.py
+        modified:   templates/components/01_navbar.html
+        new file:   templates/main/about.html
